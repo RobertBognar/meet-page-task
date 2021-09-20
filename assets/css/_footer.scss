@@ -1,0 +1,39 @@
+@import "variables";
+
+footer {
+    position: $parentPosition;
+    color: $backGroundColor;
+    z-index: 1;
+    background-image: url('../images/mobile/image-footer.jpg');
+    background-size: cover;
+    .fade-footer{
+        z-index: -1;
+        background: rgba(77, 150, 168, 0.9);
+        height: 100%;
+        position: $childPosition;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .l2 {
+        transform: translateY(-100px);
+        display: inline-block;
+        .l1 {
+            background-color: white;
+        }
+    }
+    h2 {
+        margin-top: -44px;
+        margin-bottom: 24px;
+        color: $textColor;
+        padding: 0 28px;
+    }
+    p {
+        margin-bottom: 32px;
+        line-height: $buttonLineHeight;
+        font-size: $thirdCommonFontSize;
+        padding: 0 28px;
+        color: $textColor;
+    }
+    
+}

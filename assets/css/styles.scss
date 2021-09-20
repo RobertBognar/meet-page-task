@@ -1,7 +1,9 @@
 @import "variables";
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: $backGroundColor;
-}
+@import "reset";
+@import "body";
+@import "header";
+@import "buttons";
+@import "line";
+@import "main";
+@import "footer";
+@import "responsivnes";

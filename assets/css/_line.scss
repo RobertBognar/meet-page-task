@@ -1,0 +1,25 @@
+@import "variables";
+
+.line {
+    margin: 0 auto;
+    height: 84px;
+    width: 1px;
+    background-color: $lineBackgroundColor;
+    border-color: $lineColor;
+}
+.l1 {
+    display: flex;
+    color: $lineColor;
+    border-radius: 50px;
+    border: 1px solid $lineColor;
+    align-items: $basicAlign;
+    justify-content: $basicJustify;
+    width: $circleWidth;
+    height: $circleHeight;
+    span {
+        font-size: $commontFontSize;
+        line-height: $buttonLineHeight;
+        color: $lineColor;
+        font-weight: $primaryFontWeight;
+    }
+}

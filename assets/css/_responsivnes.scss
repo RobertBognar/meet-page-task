@@ -1,0 +1,26 @@
+@import "variables";
+@import "body";
+@import "buttons";
+@import "footer";
+@import "header";
+@import "line";
+@import "main";
+@import "reset";
+
+@mixin desktop {
+    @media (max-width: #{$desktop}){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}

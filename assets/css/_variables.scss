@@ -1,1 +1,59 @@
-$backGroundColor: #FAFAFA;
+$mainFontFamily: "Red Hat Display", sans-serif;
+$backGroundColor: #FFFF;
+$textColor: #FFFF;
+$headerTextColor: #28283D;
+$headerDescriptionColor: #87879D;
+$lineColor: #87879D;
+$lineBackgroundColor: #cfcfcf;
+$firstButtonBackgroundColor: #4D96A9;
+$firstButtonSpanTextColor: #8FE3F9;
+$secondButtonBackgroundColor: #855FB1;
+$mainTitleTextColor: #4D96A9;
+
+//Font Weights
+$primaryFontWeight: 900;
+$secondaryFontWeight: 700;
+$thirdFontWeight: 500;
+$fourthFontWeight: 400;
+
+//First Button
+$firstButtonWidth: 193px;
+$firstButtonHeight: 58px;
+
+//Second Button
+$secondButtonWidth: 139px;
+$secondButtonHeight: 58px;
+
+//Other Buttons Settings
+$buttonBorderRadius: 30px;
+$buttonFontSize: 16px;
+$buttonLineHeight: 26px;
+$buttonDisplay: inline;
+$buttonMargin: 0 auto;
+$buttonCursor: pointer;
+
+//Lines & Circles
+
+$circleWidth: 56px;
+$circleHeight: 56px;
+
+//Alignments & Center
+
+$basicAlign: center;
+$basicCenter: center;
+$basicJustify: center;
+
+//Positioning
+$childPosition: absolute;
+$parentPosition: relative;
+
+//Other
+
+$commontFontSize: 16px;
+$secondCommonFontSize: 32px;
+$thirdCommonFontSize: 18px;
+
+//Responsivnes
+$desktop: 1440px;
+$mobile: 375px;
+$tablet: 900px;
