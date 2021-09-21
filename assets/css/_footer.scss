@@ -1,4 +1,5 @@
 @import "variables";
+@use "responsivnes";
 
 footer {
     position: $parentPosition;
@@ -6,7 +7,7 @@ footer {
     z-index: 1;
     background-image: url('../images/mobile/image-footer.jpg');
     background-size: cover;
-    .fade-footer{
+    .fade-footer {
         z-index: -1;
         background: rgba(77, 150, 168, 0.9);
         height: 100%;
@@ -14,13 +15,6 @@ footer {
         width: 100%;
         top: 0;
         left: 0;
-    }
-    .l2 {
-        transform: translateY(-100px);
-        display: inline-block;
-        .l1 {
-            background-color: white;
-        }
     }
     h2 {
         margin-top: -44px;

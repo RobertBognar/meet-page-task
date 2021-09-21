@@ -1,7 +1,9 @@
 @import "variables";
+@use "responsivnes";
 
 .line {
     margin: 0 auto;
+    margin-top: 88px;
     height: 84px;
     width: 1px;
     background-color: $lineBackgroundColor;

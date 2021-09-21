@@ -1,5 +1,5 @@
 @import "variables";
-@import "responsivnes";
+
 
 header {
     overflow: hidden;
@@ -27,7 +27,7 @@ header {
         font-size: 42px;
         color: $headerTextColor;
         margin-bottom: 24px;
-        padding: 0 24px; 
+        padding: 0 24px;
     }
     p {
         padding: 0 24px;

@@ -48,12 +48,19 @@ $childPosition: absolute;
 $parentPosition: relative;
 
 //Other
-
 $commontFontSize: 16px;
-$secondCommonFontSize: 32px;
 $thirdCommonFontSize: 18px;
+$secondCommonFontSize: 32px;
 
 //Responsivnes
 $desktop: 1440px;
+$tablet: 768px;
 $mobile: 375px;
-$tablet: 900px;
+
+$desktopLineHeight: 64px;
+$desktopFontSizeHeader: 64px;
+
+$desktopImageWidth: 255px;
+$desktopImageHeight: 242px;
+$desktopAvatarsWidth: 110px;
+$desktopAvatarHeight: 110px;
