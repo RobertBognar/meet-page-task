@@ -1,0 +1,43 @@
+@import "variables";
+
+header {
+    position: relative;
+    .avatars-left-box {
+        display: flex wrap;
+        flex-direction: column;
+        
+        img {
+            width: auto;
+            height: auto;
+            border-radius: 50px;
+            border: none;
+            position: $childPosition;; 
+        }
+    }
+    
+    .first-avatar-left {
+        left: -15px;
+        top: 200px;
+    }
+    .second-avatar-left {
+        left: 120px;
+        top: 140px;
+    }
+    .third-avatar-left {
+        left: 260px;
+        top: 200px;
+    }
+    .fourth-avatar-left {
+        left: -15px;
+        top: 340px;
+    }
+    .fifth-avatar-left {
+        left: 120px;
+        top: 280px;
+    }
+    .sixth-avatar-left {
+        left: 260px;
+        top: 340px;
+    }
+}
+
