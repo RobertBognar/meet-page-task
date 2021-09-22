@@ -8,7 +8,7 @@
 @use "responsivnes";
 body {
   text-align: center;
-  background-color: #FFFF;
+  background-color: #FAFAFA;
   font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -81,7 +81,7 @@ header .avatars-left-box img {
 }
 
 header .first-avatar-left {
-  left: -15px;
+  left: -25px;
   top: 200px;
 }
 
@@ -96,18 +96,64 @@ header .third-avatar-left {
 }
 
 header .fourth-avatar-left {
-  left: -15px;
-  top: 340px;
+  left: -25px;
+  top: 330px;
 }
 
 header .fifth-avatar-left {
   left: 120px;
-  top: 280px;
+  top: 270px;
 }
 
 header .sixth-avatar-left {
   left: 260px;
-  top: 340px;
+  top: 330px;
+}
+
+header .avatars-right-box {
+  display: flex wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .avatars-right-box img {
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+}
+
+header .seventh-avatar-right {
+  right: 25px;
+  bottom: 280px;
+}
+
+header .eight-avatar-right {
+  right: 160px;
+  bottom: 220px;
+}
+
+header .ninth-avatar-right {
+  right: 300px;
+  bottom: 280px;
+}
+
+header .tenth-avatar-right {
+  right: 25px;
+  bottom: 420px;
+}
+
+header .eleventh-avatar-right {
+  right: 160px;
+  bottom: 360px;
+}
+
+header .twelve-avatar-right {
+  right: 300px;
+  bottom: 420px;
 }
 
 @use "responsivnes";
@@ -222,6 +268,7 @@ header .sixth-avatar-left {
 @use "responsivnes";
 main {
   margin-top: 64px;
+  position: relative;
 }
 
 .main-box {
@@ -278,7 +325,7 @@ p {
 footer {
   position: relative;
   color: #FFFF;
-  z-index: 1;
+  z-index: -1;
   background-image: url("../images/mobile/image-footer.jpg");
   background-size: cover;
 }
@@ -311,7 +358,7 @@ footer p {
 @use "responsivnes";
 body {
   text-align: center;
-  background-color: #FFFF;
+  background-color: #FAFAFA;
   font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -394,7 +441,7 @@ body {
 footer {
   position: relative;
   color: #FFFF;
-  z-index: 1;
+  z-index: -1;
   background-image: url("../images/mobile/image-footer.jpg");
   background-size: cover;
 }
@@ -509,6 +556,7 @@ header p {
 @use "responsivnes";
 main {
   margin-top: 64px;
+  position: relative;
 }
 
 .main-box {
