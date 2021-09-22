@@ -9,6 +9,212 @@
 @import "footer";
 @import "responsivnes";
 
+@media (min-width: #{$mobile}) {
+    header {
+        .avatars-left-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $mobileAvatarsWidth;
+                height: $mobileAvatarsHeight;
+            }
+        }
+        .first-avatar-left {
+            left: -25px;
+            top: 140px;
+        }
+        .second-avatar-left {
+            left: 40px;
+            top: 110px;
+        }
+        .third-avatar-left {
+            left: 110px;
+            top: 140px;
+        }
+        .fourth-avatar-left {
+            left: -25px;
+            top: 210px;
+        }
+        .fifth-avatar-left {
+            left: 40px;
+            top: 180px;
+        }
+        .sixth-avatar-left {
+            left: 110px;
+            top: 210px;
+        }
+        .avatars-right-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $mobileAvatarsWidth;
+                height: $mobileAvatarsHeight;
+            }
+        }
+        .seventh-avatar-right {
+            right: 140px;
+            bottom: 710px;
+        }
+        .eight-avatar-right {
+            right: 140px;
+            bottom: 640px;
+        }
+        .ninth-avatar-right {
+            right: 70px;
+            bottom: 610px;
+        }
+        .tenth-avatar-right {
+            right: 70px;
+            bottom: 680px;
+        }
+        .eleventh-avatar-right {
+            right: -10px;
+            bottom: 710px;
+        }
+        .twelve-avatar-right {
+            right: -10px;
+            bottom: 640px;
+        }
+        .header-text {
+            h1 {
+                padding-top: 184px;
+                font-size: 40px; 
+                width: auto;
+                height: auto;
+                left: 24px;
+                top: 331px; 
+            }
+            p {
+                font-size: $commontFontSize;
+                width: 360px;
+                height: 78px;
+                left: 24px;
+                top: 423px;
+            }
+        }
+        .btn2 {
+            position: $childPosition;
+            width: 139px;
+            height: 58px;
+            left: 108px;
+            top: 610px;
+        }
+        .line1 {
+            margin-top: 40px;
+        }
+    }
+    main {
+        .text-main {
+            width: auto;
+            height: 240px;
+            margin-bottom: 220px;
+            h3 {
+                letter-spacing: 4px;  
+                height: 26px;
+                left: 7.95%;
+                right: 9.17%;
+                font-weight: 900;
+                font-size: $commontFontSize;
+                line-height: $buttonLineHeight;
+            }
+            h2 {
+                font-size: 32px;
+                line-height: 36px;
+                font-weight: $primaryFontWeight;
+                text-align: center;
+            }
+            p {
+                font-weight: $thirdFontWeight;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+    }
+    footer {
+        width: 375px;
+        height: 428px;
+        h2 {
+           padding-top: 90px; 
+        }
+    }
+}
+
+@media (min-width: #{$tablet}) {
+
+}
+
+
+@media (min-width: #{$largescreen}) {
+    header {
+        .header-text {
+            p {
+                padding: 0 84px;
+                font-size: $thirdCommonFontSize;
+            }
+            h1 {
+                font-size: $desktopFontSizeHeader;
+                line-height: $desktopLineHeight;
+                padding-top: 64px;
+            }
+        }
+    }
+    main {
+        margin-top: 64px;
+        margin-bottom: 80px;
+        .main-box {
+            padding: 0 150px;
+            img {
+                height: $largeScreenImageHeight;
+                width: $largeScreenImageWidth;
+                &:nth-child(n) {
+                    margin-right: 20px;
+                    margin-left: 0px;
+                }
+                &:nth-child(4) {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    footer {
+        height: 308px ;
+        width: 100% ;
+        background-image: url('../images/desktop/image-footer.jpg');
+        background-position: center;
+        padding-bottom: 160px;
+        .footer-flex {
+            width: 70%;
+            text-align: left;
+            display: flex;
+            margin-left: 10%;
+            padding-top: 110px;
+            justify-content: space-between;
+            align-items: center;
+            h2 {
+                max-width: 350px;
+                height: 88px;
+                font-size: 40px;
+                margin: 0px;
+            }
+            p {
+                margin: 0px;
+                width: 390px;
+                height: 78px;
+                font-size: 18px;
+            }
+            .btn3 {
+                margin-right: 40px;
+                margin: 0px;
+                padding: 0px;
+                width: 193px;
+                height: 58px;
+            }
+        }
+    }
+}
+
 @media (min-width: #{$desktop}) {
     header {
         .header-text {
