@@ -9,6 +9,7 @@
 @import "footer";
 @import "responsivnes";
 
+//RESPONSIVE MOBILE
 @media (min-width: #{$mobile}) {
     header {
         .avatars-left-box {
@@ -140,8 +141,152 @@
         }
     }
 }
-
+//RESPONSIVE TABLET VIEW
 @media (min-width: #{$tablet}) {
+    header {
+        padding-bottom: 60px;
+        .avatars-left-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $desktopAvatarsWidth;
+                height: $desktopAvatarHeight;
+            }
+        }
+        .first-avatar-left {
+            left: -25px;
+            top: 180px;
+        }
+        .second-avatar-left {
+            left: 120px;
+            top: 120px;
+        }
+        .third-avatar-left {
+            left: 260px;
+            top: 180px;
+        }
+        .fourth-avatar-left {
+            left: -25px;
+            top: 320px;
+        }
+        .fifth-avatar-left {
+            left: 120px;
+            top: 260px;
+        }
+        .sixth-avatar-left {
+            left: 260px;
+            top: 320px;
+        }
+        .avatars-right-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $desktopAvatarsWidth;
+                height: $desktopAvatarHeight;
+            }
+        }
+        .seventh-avatar-right {
+            right: 260px;
+            bottom: 720px;
+        }
+        .eight-avatar-right {
+            right: 260px;
+            bottom: 580px;
+        }
+        .ninth-avatar-right {
+            right: 125px;
+            bottom: 660px;
+        }
+        .tenth-avatar-right {
+            right: 125px;
+            bottom: 520px;
+        }
+        .eleventh-avatar-right {
+            right: -10px;
+            bottom: 580px;
+        }
+        .twelve-avatar-right {
+            right: -10px;
+            bottom: 720px;
+        }
+        .header-text {
+            h1 {
+                width: 339px;
+                height: 96px;
+                padding-top: 360px;
+                font-size: 48px; 
+                width: auto;
+                height: auto;
+                left: 24px;
+                top: 331px; 
+                font-weight: $primaryFontWeight;
+                line-height: 48px;
+            }
+            p {
+                width: 457px;
+                height: 52px;
+                font-weight: $thirdFontWeight;
+                font-size: $commontFontSize;
+                line-height: $buttonLineHeight;
+                text-align: center;
+                left: 24px;
+                top: 423px;
+            }
+        }
+        .btn1 {
+            margin-right: 150px;
+        }
+        .btn2 {
+            margin: 82px 0px 0px 310px;
+        }
+        .line1 {
+            margin-top: -50px;
+            margin-bottom: -60px;
+        }
+    }
+    .text-main {
+        width: auto;
+        height: 240px;
+        p {
+           width: 623px;
+           margin-left: 70px;
+        }
+    }
+    .main-box {
+        img {
+            width: $tabletImageWidth;
+            height: $tabletImageHeight;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+    footer {
+        background-image: url("../images/tablet/image-footer.jpg");
+        width: 768px;
+        height: 428px;
+        h2 {
+            width: 457px;
+            height: 88px;
+            font-weight: $primaryFontWeight;
+            font-size: 40px;
+            line-height: 44px;
+            text-align: center;
+            margin: 0 auto; 
+            font-style: normal;
+        }
+        p {
+            width: 623px;
+            height: 52px;
+            font-style: normal;
+            font-weight: $thirdFontWeight;
+            font-size: $thirdCommonFontSize;
+            line-height: $buttonLineHeight;
+            text-align: center;
+            margin: 120px 0px 0px 80px;
+        }
+        .btn3 {
+            margin: 40px 0px 0px 0px;
+        }
+    }
 
 }
 
