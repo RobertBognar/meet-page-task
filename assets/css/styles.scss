@@ -587,6 +587,34 @@
                 width: 560px;
             }
         }
+        .line2 {
+            transform: translateY(28px);
+            margin: 0 auto;
+            height: 84px;
+            width: 1px;
+            background-color: $lineBackgroundColor;
+            border-color: $lineColor; 
+        }
+        .l2 {
+            position: $childPosition;
+            transform: translateY(26px);
+            left: -28px;
+            background-color: $textColor;
+            display: flex;
+            color: $lineColor;
+            border-radius: 50px;
+            border: 1px solid $lineColor;
+            align-items: $basicAlign;
+            justify-content: $basicJustify;
+            width: $circleWidth;
+            height: $circleHeight;
+            span {
+                font-size: $commontFontSize;
+                line-height: $buttonLineHeight;
+                color: $lineColor;
+                font-weight: $primaryFontWeight;
+            } 
+        }
     }
     footer {
         height: 308px ;
@@ -636,6 +664,34 @@
             p {
                 margin-left: 664px;
             }
+        }
+        .line2 {
+            transform: translateY(28px);
+            margin: 0 auto;
+            height: 84px;
+            width: 1px;
+            background-color: $lineBackgroundColor;
+            border-color: $lineColor; 
+        }
+        .l2 {
+            position: $childPosition;
+            transform: translateY(26px);
+            left: -28px;
+            background-color: $textColor;
+            display: flex;
+            color: $lineColor;
+            border-radius: 50px;
+            border: 1px solid $lineColor;
+            align-items: $basicAlign;
+            justify-content: $basicJustify;
+            width: $circleWidth;
+            height: $circleHeight;
+            span {
+                font-size: $commontFontSize;
+                line-height: $buttonLineHeight;
+                color: $lineColor;
+                font-weight: $primaryFontWeight;
+            } 
         }
     }
 }
