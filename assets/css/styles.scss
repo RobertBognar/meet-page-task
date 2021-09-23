@@ -290,19 +290,111 @@
 
 }
 
-
+//RESPONSIVE LARGE SCREEN LAPTOPs VIEW
 @media (min-width: #{$largescreen}) {
     header {
-        .header-text {
-            p {
-                padding: 0 84px;
-                font-size: $thirdCommonFontSize;
+        padding-bottom: 60px;
+        .avatars-left-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $largeScreenAvatarWidth;
+                height: $largeScreenAvatarHeight;
             }
+        }
+        .first-avatar-left {
+            left: -15px;
+            top: 180px;
+        }
+        .second-avatar-left {
+            left: 60px;
+            top: 140px;
+        }
+        .third-avatar-left {
+            left: 140px;
+            top: 180px;
+        }
+        .fourth-avatar-left {
+            left: -15px;
+            top: 260px;
+        }
+        .fifth-avatar-left {
+            left: 60px;
+            top: 220px;
+        }
+        .sixth-avatar-left {
+            left: 140px;
+            top: 260px;
+        }
+        .avatars-right-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $largeScreenAvatarWidth;
+                height: $largeScreenAvatarHeight;
+            }
+        }
+        .seventh-avatar-right {
+            right: 160px;
+            bottom: 470px;
+        }
+        .eight-avatar-right {
+            right: 160px;
+            bottom: 390px;
+        }
+        .ninth-avatar-right {
+            right: 80px;
+            bottom: 350px;
+        }
+        .tenth-avatar-right {
+            right: 80px;
+            bottom: 430px;
+        }
+        .eleventh-avatar-right {
+            right: -10px;
+            bottom: 470px;
+        }
+        .twelve-avatar-right {
+            right: -10px;
+            bottom: 390px;
+        }
+        .header-text {
             h1 {
+                width: 445px;
+                height: 128px;
                 font-size: $desktopFontSizeHeader;
                 line-height: $desktopLineHeight;
                 padding-top: 64px;
+                width: auto;
+                height: auto;
+                left: 498px;
+                top: 216px;
+                font-weight: $primaryFontWeight;
+                
             }
+            p {
+                width: 650px;
+                height: auto;
+                padding: 0 84px;
+                left: 450px;
+                top: 378px;
+                font-weight: $thirdFontWeight;
+                font-size: $commontFontSize;
+                line-height: $buttonLineHeight;
+                text-align: center;
+                left: 24px;
+                top: 423px;
+            }
+        }
+        .btn1 {
+            margin-right: 150px;
+        }
+        .btn2 {
+            margin: -182px 0px 0px 440px;
+        }
+        .line1 {
+            margin-top: -10px;
+            margin-bottom: -60px;
         }
     }
     main {
@@ -322,6 +414,18 @@
                 }
             }
         }
+        .text-main {
+            h3 {
+              font-style: normal;
+              font-weight: $primaryFontWeight;  
+              font-size: $commontFontSize;
+              line-height: 26px;
+            }
+            p {
+                width: 500px;
+                margin-left: 275px;
+            }
+        }
     }
     footer {
         height: 308px ;
@@ -330,27 +434,31 @@
         background-position: center;
         padding-bottom: 160px;
         .footer-flex {
-            width: 70%;
+            width: 90%;
             text-align: left;
             display: flex;
-            margin-left: 10%;
+            margin-left: 20px;
             padding-top: 110px;
             justify-content: space-between;
             align-items: center;
             h2 {
-                max-width: 350px;
-                height: 88px;
+                max-width: 450px;
+                height: auto;
                 font-size: 40px;
                 margin: 0px;
+                font-weight: $primaryFontWeight;
+                font-style: normal;
+                padding-top: 2px;
+                text-align: left;
             }
             p {
                 margin: 0px;
                 width: 390px;
                 height: 78px;
                 font-size: 18px;
+                text-align: left;
             }
             .btn3 {
-                margin-right: 40px;
                 margin: 0px;
                 padding: 0px;
                 width: 193px;
@@ -362,10 +470,76 @@
 
 @media (min-width: #{$desktop}) {
     header {
+        .avatars-left-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $desktopAvatarsWidth;
+                height: $desktopAvatarHeight;
+            }
+        }
+        .first-avatar-left {
+            left: -15px;
+            top: 200px;
+        }
+        .second-avatar-left {
+            left: 140px;
+            top: 140px;
+        }
+        .third-avatar-left {
+            left: 290px;
+            top: 200px;
+        }
+        .fourth-avatar-left {
+            left: -15px;
+            top: 340px;
+        }
+        .fifth-avatar-left {
+            left: 140px;
+            top: 280px;
+        }
+        .sixth-avatar-left {
+            left: 290px;
+            top: 340px;
+        }
+        .avatars-right-box {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: $desktopAvatarsWidth;
+                height: $desktopAvatarHeight;
+            }
+        }
+        .seventh-avatar-right {
+            right: 290px;
+            bottom: 410px;
+        }
+        .eight-avatar-right {
+            right: 290px;
+            bottom: 270px;
+        }
+        .ninth-avatar-right {
+            right: 140px;
+            bottom: 330px;
+        }
+        .tenth-avatar-right {
+            right: 140px;
+            bottom: 200px;
+        }
+        .eleventh-avatar-right {
+            right: -10px;
+            bottom: 270px;
+        }
+        .twelve-avatar-right {
+            right: -10px;
+            bottom: 410px;
+        }
         .header-text {
             p {
                 padding: 0 84px;
                 font-size: $thirdCommonFontSize;
+                width: 700px;
+                height: auto;
             }
             h1 {
                 font-size: $desktopFontSizeHeader;
@@ -373,6 +547,10 @@
                 padding-top: 64px;
             }
         }
+        .btn2 {
+            margin: -182px 0px 0px 650px;
+        }
+
     }
     main {
         margin-top: 64px;
@@ -389,6 +567,24 @@
                 &:nth-child(4) {
                     margin-right: 0px;
                 }
+            }
+        }
+        .text-main {
+            h3 {
+              font-style: normal;
+              font-weight: $primaryFontWeight;  
+              font-size: $commontFontSize;
+              line-height: 26px;
+            }
+            h2 {
+                font-size: 40px;
+                font-style: normal;
+                font-weight: $primaryFontWeight;
+            }
+            p {
+                margin-left: 444px;
+                font-size: $thirdCommonFontSize;
+                width: 560px;
             }
         }
     }
@@ -424,6 +620,21 @@
                 padding: 0px;
                 width: 193px;
                 height: 58px;
+            }
+        }
+    }
+}
+
+@media (min-width: #{$desktopbigscreen}) {
+    header {
+        .btn2 {
+            margin: -182px 0px 0px 884px;
+        }
+    }
+    main {
+        .text-main {
+            p {
+                margin-left: 664px;
             }
         }
     }
