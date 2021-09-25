@@ -1,0 +1,55 @@
+@import "variables";
+@use "responsivnes";
+
+main {
+    margin-top: 64px;
+    position: $parentPosition;
+}
+
+.main-box {
+    display: flex wrap;
+    margin-bottom: 44px;
+    width: 100%;
+    img {
+        width: 40%;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        &:nth-child(odd) {
+            margin-right: 12px;
+        }
+
+        &:nth-child(even) {
+            margin-left: 12px;
+        }
+    }
+}
+
+.text-main {
+    margin-bottom: 180px;
+}
+
+h2 {
+    color: $headerTextColor;
+    font-size: $secondCommonFontSize;
+    line-height: 36px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+h3 {
+    padding: 0 24px;
+    color: $mainTitleTextColor;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: $buttonLineHeight;
+    font-size: $commontFontSize;
+    margin-bottom: 24px;
+}
+
+p {
+    padding: 0px 24px;
+    line-height: $buttonLineHeight;
+    color: $headerDescriptionColor;
+    font-size: $commontFontSize;
+    margin-bottom: 32px;
+}

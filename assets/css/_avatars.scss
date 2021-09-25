@@ -1,0 +1,72 @@
+@import "variables";
+
+header {
+    position: relative;
+    .avatars-left-box {
+        display: flex wrap;
+        flex-direction: column;
+        img {      
+            border-radius: 50px;
+            border: none;
+            position: $childPosition;; 
+        }
+    }
+    // .first-avatar-left {
+    //     left: -25px;
+    //     top: 200px;
+    // }
+    // .second-avatar-left {
+    //     left: 120px;
+    //     top: 140px;
+    // }
+    // .third-avatar-left {
+    //     left: 260px;
+    //     top: 200px;
+    // }
+    // .fourth-avatar-left {
+    //     left: -25px;
+    //     top: 330px;
+    // }
+    // .fifth-avatar-left {
+    //     left: 120px;
+    //     top: 270px;
+    // }
+    // .sixth-avatar-left {
+    //     left: 260px;
+    //     top: 330px;
+    // }
+    .avatars-right-box {
+        display: flex wrap;
+        flex-direction: column;
+        img {
+            border-radius: 50px;
+            border: none;
+            position: $childPosition;; 
+        }
+    }
+    .seventh-avatar-right {
+        right: 25px;
+        bottom: 280px;
+    }
+    .eight-avatar-right {
+        right: 160px;
+        bottom: 220px;
+    }
+    .ninth-avatar-right {
+        right: 300px;
+        bottom: 280px;
+    }
+    .tenth-avatar-right {
+        right: 25px;
+        bottom: 420px;
+    }
+    .eleventh-avatar-right {
+        right: 160px;
+        bottom: 360px;
+    }
+    .twelve-avatar-right {
+        right: 300px;
+        bottom: 420px;
+    }
+}
+

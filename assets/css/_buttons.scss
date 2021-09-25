@@ -1,0 +1,74 @@
+@import "variables";
+@use "responsivnes";
+
+.btn1 {
+    margin: $buttonMargin;
+    display: $buttonDisplay;
+    font-family: $mainFontFamily;
+    font-weight: $primaryFontWeight;
+    border: none;
+    background-color: $firstButtonBackgroundColor;
+    border-radius: $buttonBorderRadius;
+    color: $textColor;
+    font-size: $buttonFontSize;
+    line-height: $buttonLineHeight;
+    width: $firstButtonWidth;
+    height: $firstButtonHeight;
+    margin-bottom: 16px;
+    word-spacing: 2px;
+    cursor: $buttonCursor;
+    span {
+        color: $firstButtonSpanTextColor;
+        
+    }
+}
+
+.btn1:hover {
+    background-color: #497d8b;
+}
+
+.btn2 {
+    margin: $buttonMargin;
+    margin-left: 10px;
+    display: $buttonDisplay;
+    font-family: $mainFontFamily;
+    font-weight: $primaryFontWeight;
+    border: none;
+    background-color: $secondButtonBackgroundColor;
+    border-radius: $buttonBorderRadius;
+    color: $textColor;
+    font-size: $buttonFontSize;
+    line-height: $buttonLineHeight;
+    width: $secondButtonWidth;
+    height: $secondButtonHeight;
+    cursor: $buttonCursor;
+}
+
+.btn2:hover {
+    background-color: #a273d8;
+}
+
+.btn3 {
+    margin: $buttonMargin;
+    display: $buttonDisplay;
+    font-family: $mainFontFamily;
+    font-weight: $primaryFontWeight;
+    border: none;
+    border-radius: $buttonBorderRadius;
+    background-color: $secondButtonBackgroundColor;
+    font-size: $buttonFontSize;
+    font-size: $buttonFontSize;
+    line-height: $buttonLineHeight;
+    width: $firstButtonWidth;
+    height: $firstButtonHeight;
+    cursor: $buttonCursor;
+    margin-bottom: 72px;
+    display: inline-block;
+    color: $textColor;
+    span {
+        color: #D9B8FF;
+    }
+}
+.btn3:hover {
+    background-color: #9771c4;
+}
